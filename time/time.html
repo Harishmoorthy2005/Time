@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="time.css">
+    <title>time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Asap:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Lexend:wght@100..900&family=Maven+Pro:wght@400..900&family=Nanum+Myeongjo&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+      <div class="cont">
+        <video autoplay muted loop id="myVideo">
+            <source src="sunrise_-_30218 (720p).mp4" type="video/mp4">
+          </video>
+      <h1 id="mytime"></h1>
+      <div class="bot">
+      <p>Time doesn't heal it just fades&#128512;</p>
+    </div>
+   
+    <script>
+        let time = document.getElementById("mytime");
+
+        setInterval(() => {
+            let d=new Date();
+        time.innerHTML=d.toLocaleTimeString(); 
+        },1000)
+        
+    </script>
+    </body>
+  
+</html>

@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#mytime{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 8rem;
+   font-weight: 500;
+   font-family: "Anta", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   color:#FFFFFF;
+   transition: 1s;
+   animation: ti 5s;
+}
+@keyframes ti{
+   from{transform: translatex(-500px) ;
+
+   }
+}
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.bot{
+   font-size:5rem;
+   display: flex;
+   justify-content: center;
+   margin-top: -10%;
+   color: snow;
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+   font-style: normal;
+    transition: 1s;
+   animation: ee 5s;
+}
+@keyframes ee{
+   from{transform: translateX(500px) ;
+
+   }
+}
